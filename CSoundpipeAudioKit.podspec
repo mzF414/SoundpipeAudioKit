@@ -35,5 +35,7 @@ Pod::Spec.new do |spec|
 #     '-std=c++1y',
 #     '-fPIC'
 #   ]
-
+  spec.dependency 'AudioKit'
+  spec.dependency 'AudioKitEX'
+  spec.dependency 'Soundpipe'
 end
